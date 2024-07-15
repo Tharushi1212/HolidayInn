@@ -1,0 +1,46 @@
+.fixed-footer {
+  left: 0;
+  bottom: 0;
+  position: relative;
+  width: 100%;
+  background: rgb(5 2 96);
+  padding: 90px 0px 0px 0px;
+}
+
+.footer-logo {
+  max-width: 55px;
+  height: auto;
+}
+
+.contact-info-txt {
+  font-family: Lato;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none !important;
+}
+.connect-txt.mb-3 {
+  color: white;
+  font-size: 21px;
+}
+
+.subscribe-txt.mb-3 {
+  color: white;
+  font-size: 23px;
+}
+
+.subscribe-txt-para.mb-3 {
+  font-family: Lato;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}

@@ -1,0 +1,55 @@
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*padding: 20px; */
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: fit-content;
+  height: 82vh;
+}
+
+.about-image img {
+  max-width: 450px;
+  width: 100%;
+  display: block;
+}
+
+.about-text {
+  margin-left: 20px;
+}
+
+.about-text h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.about-line {
+  width: 50px;
+  height: 3px;
+  background-color: blue;
+  margin: 10px 0;
+}
+
+.about-subheading {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.read-more-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}

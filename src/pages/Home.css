@@ -1,0 +1,114 @@
+.home-container {
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  height: 100vh;
+  position: relative; */
+}
+
+.home-content h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.home-content h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.padding {
+  padding: 100px 80px;
+  margin: 0 auto;
+  width: 98%;
+  max-width: 1560px;
+}
+
+.hall-grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.our-halls-txt {
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* font-style: italic; */
+  font-family: ui-monospace;
+  font-weight: 700;
+}
+
+.hall-img {
+  width: 100%;
+  height: 400px;
+  cursor: pointer;
+}
+
+.img-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 10px;
+}
+
+.viewMore-btn {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 40px;
+  background: #ddc7a6;
+  font-family: Helvetica Neue;
+  font-weight: 500;
+}
+
+.hero-title {
+  font-family: auto;
+  font-size: 54px;
+  color: beige;
+  font-weight: 700;
+}
+
+.hotel-description {
+  font-size: 16px;
+  font-family: helavetica;
+  text-align: center;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  height: 103vh;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+video.video {
+  height: 97vh;
+}

@@ -1,0 +1,41 @@
+.banquet-title {
+  font-size: 40px;
+  font-family: helavetica;
+  font-style: oblique;
+  color: #1111b9;
+}
+
+.blanquet-description {
+  font-size: 24px;
+  font-family: helavetica;
+  font-weight: 500;
+  line-height: 33px;
+}
+
+.column-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn-banquet {
+  padding: 13px 30px 11px 30px;
+  font-family: 'BodoniStd-BookItalic', serif;
+  font-size: 20px;
+  border-radius: 0;
+  border: 0;
+  position: relative;
+  overflow: hidden;
+  background-color: #252776;
+  color: #ffffff;
+  max-width: 278px;
+}
+
+.banquest-img {
+  width: 100%;
+  height: 285px;
+}
+
+.ballroom {
+  height: 68vh;
+}

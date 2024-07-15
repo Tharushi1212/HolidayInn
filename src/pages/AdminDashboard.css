@@ -1,0 +1,97 @@
+/* AdminDashboard.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.admin-dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f0f8ff;
+}
+
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.hotel-name {
+    font-size: 24px;
+    margin: 0;
+}
+
+.current-tab h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.search-bar input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+}
+
+.admin-nav {
+    background-color: #0056b3;
+    padding: 10px;
+}
+
+.admin-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.admin-nav li {
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.admin-nav li:hover {
+    background-color: #003f7f;
+}
+
+.admin-content {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    flex: 1;
+    background-color: #e0f7fa;
+}
+
+.content-box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.calendar {
+    background-color: #d1c4e9;
+}
+
+.reviews {
+    background-color: #b2dfdb;
+}
+
+.content-box h3 {
+    margin-top: 0;
+}
